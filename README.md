@@ -1,2 +1,2 @@
-# amy-blog
-This is Amy's blog about culture
+# Sam-blog
+This is Sam's blog about culture
