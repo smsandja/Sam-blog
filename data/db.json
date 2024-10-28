@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "posts": [
       {
         "title": "My First Blog",
@@ -14,12 +13,4 @@
         "id": 2
       }
     ]
-  }
-=======
-  "jobs": [
-    { "id": 1, "title": "Dev fullstack", "detail": "lorem" },
-    { "id": 2, "title": "Architecte", "detail": "lorem" },
-    { "id": 3, "title": "Psychologue", "detail": "lorem" }
-  ]
 }
->>>>>>> aee9ed4341f18bdd7ba3eb68ca0e5ea6d2d01a57
