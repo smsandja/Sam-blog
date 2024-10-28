@@ -3,6 +3,8 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NewPost from './NewPost';
 import Contact from './Contact';
+import PostDetails from './PostDetails';
+import CreatePost from './CreatePost';
 
 function App() {
   
@@ -15,11 +17,14 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/post">
-            <NewPost />
+          <Route exact path="/posts">
+            <CreatePost />
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/posts/:id">
+            <PostDetails />
           </Route>
         </Switch>
         
