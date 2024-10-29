@@ -1,7 +1,6 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import NewPost from './NewPost';
 import Contact from './Contact';
 import PostDetails from './PostDetails';
 import CreatePost from './CreatePost';
