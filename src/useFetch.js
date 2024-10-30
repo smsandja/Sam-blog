@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useFetch = (url) => {
- const abortCont = new AbortController();
+//  const abortCont = new AbortController();
 
    const [data, setData] = useState(null); 
    const [isPending, setPending] = useState(true);
@@ -14,7 +14,8 @@ const useFetch = (url) => {
                 if(!res.ok){
                     throw new Error("Could not found data !"); 
                 }
-                return res.json(); })
+                return res.json(); 
+            })
             .then(data => {
                 setData(data);
                 setPending(false);
@@ -31,7 +32,7 @@ const useFetch = (url) => {
             })
         }, 1000);
 
-        return () => abortCont.abort();
+        // return () => abortCont.abort();
    }, [url]);
    return { data, isPending, error }
 }

@@ -13,7 +13,7 @@
   max-width: 800px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
-}
+ }
 .navbar h1 {
   color: #f1356d;
 }
@@ -127,4 +127,12 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.notfound {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 35px;
+}
+.notfound a{
+  color: green;
 }

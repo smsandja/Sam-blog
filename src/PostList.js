@@ -12,7 +12,7 @@ const PostList = ({posts, title}) => {
                 <h2>{post.title}</h2>
                 <p>Written by {post.author}</p>
                 <p></p>
-                <div className="resume">{post.body.substring(0, 150)}...</div>
+                <div className="resume">{post.body.substring(0, 150)}...<b>Lire la suite</b></div>
                 </Link>
                 
             </div>
