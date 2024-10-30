@@ -14,12 +14,12 @@ const CreatePost = () => {
 
         setIspending(true);
 
-        
-        fetch("http://localhost:5555/posts", {
+        fetch("http://localhost:5555/posts",  {
          method : 'POST',
          headers : {"Type-Content" : "application/json"},
          body: JSON.stringify(post)
-        }) .then (()=>{
+        })
+        .then(()=>{
             console.log("Data added !");
             setIspending(false);
             redirect.push('/');
